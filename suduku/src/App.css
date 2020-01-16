@@ -1,0 +1,60 @@
+.full-context {
+    display: flex;
+    flex-direction: column;
+}
+
+.full-box {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.box {
+    display: flex;
+    /* flex-direction: row; */
+    width: 204px;
+    flex-wrap: wrap;
+    border: 2px solid #000;
+}
+
+.grid-box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+}
+
+.given-number {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    background-color: antiquewhite;
+}
+
+.dynamic-number {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.incorrect {
+    margin: 40px;
+}
