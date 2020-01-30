@@ -11,7 +11,7 @@ git clone https://github.com/saurabhnk-94/Sudoku.git
 
 Get into the folder type this in terminal:
 ```
-cd sudoku/sudoku
+cd sudoku
 ```
 
 To play this game:
